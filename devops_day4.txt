@@ -1,0 +1,11 @@
+CI/CD is a device practice that automates testing and deployment.It helps developers deliver code faster and safely
+CI stands for continuos integration ang CD stands for continuos Delivery or deployment 
+This CI/CD Pineline have 8 steps;
+source code management
+build stage
+automated test
+code analysis and security scan
+artifact repository
+deployment to staging
+deployment to production 
+monitoring and alerts
