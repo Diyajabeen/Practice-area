@@ -1,0 +1,21 @@
+Reflection summary
+
+1) what are the 3 python concepts you now feel confident with?
+   print something
+   check the number is even or odd
+   if,elif and else concepts
+   check the number is positive negative or zero
+   function 
+
+2) what HTML concept are still confusing?
+   table making area
+
+3) what did you find hardest so far?
+   i dont know but something is not good
+
+4) what Git/Github command do you use the most?
+   git add .
+   git push
+
+5) what do you want to build by the end of this 6 month?
+   strong knowledge in software feild              
