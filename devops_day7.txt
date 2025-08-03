@@ -1,0 +1,53 @@
+CI=continuos integration
+Whenever developers push code to github,the code is automatically tested and merged.
+Benefits:
+Detect bugs early,makes team wrk easier,ensure the code base always works
+CD=continuos deployment/Delivery
+After code passes test,it's automtically send to production
+Benefits:
+Faster release,less manual effort,safer updates
+it helps automated;
+Testing,Building,Deploying your code every time you make changes
+
+
+Why is it important?
+Catch bugs early
+Speed up deployment
+Make teame collaboration smoother
+Reduce human errors
+Ensure code quality
+Reliable and consistent releases
+
+What tools are used?
+Github Actions
+Jenkins
+Gitlab
+CircleCI(cloud based)
+Docker(packages your app into container)+kubernetes(deploys and manages these containers)[for deployment]
+TravisCI
+
+
+Real world eg were CI/CD is used
+Instagram
+Use case:Adding a new feature to instagram chat
+imagine instagram want to release a new "voice note" feature in DMs
+
+CI/CD actions:
+step1:Developer pushs code
+write the code for the voice note and pushes into the github
+step2:CI pipeline runs
+Github actions does this automatically:
+.Checks the new code for bugs
+.Ensure it doesnt break existing code
+.Runs security scans and formating checks
+if test pass code is approved
+if not developer is notify to fix issues
+step3:CD pipeline starts
+once the code is ready:
+its automatically built into an app package
+its deployed to a staging server where testers try it out
+if all goes well,its deployed to production for users via:
+.google play store
+.app store
+.web app server
+
